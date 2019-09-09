@@ -144,4 +144,16 @@ public class Tag {
     public Drawable getBackground() {
         return background;
     }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
 }
